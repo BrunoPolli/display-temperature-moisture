@@ -3,7 +3,8 @@
 This is a project developed in NodeMCU ESP8266 v12-e and TFT display 240x240.
 
 ## Temperature display
-This value is updated by requests in NodeMCU route '/update'. You can find this code here.>
+This value is updated by requests in NodeMCU route '/update' by python scheduler:
+https://github.com/BrunoPolli/temperature-moisture-scheduler
 
 ## Moisture value
 A moisture sensor is responsible for reading analog values between 0-1023, that will be converted into a percentage format in code.  
